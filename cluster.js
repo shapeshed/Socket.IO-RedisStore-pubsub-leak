@@ -43,6 +43,8 @@ if (cluster.isMaster) {
     redisSub: sub,
     redisClient: cmd
   }));
+  
+  io.set('polling duration', 3);
 
   io.sockets.on('connection', function (socket) {});
 
