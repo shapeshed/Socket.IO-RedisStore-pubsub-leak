@@ -7,4 +7,4 @@ set grid y
 set xlabel "time elapsed (s)"
 set ylabel "count"
 
-plot "report.dat" using 1:2 smooth sbezier with lines title "pubsub channels" , "report.dat" using 1:3 smooth sbezier with lines title "sockets"
+plot "report.dat" using 1:3 smooth sbezier with lines title "pubsub channels" , "report.dat" using 1:2 smooth sbezier with lines title "sockets"

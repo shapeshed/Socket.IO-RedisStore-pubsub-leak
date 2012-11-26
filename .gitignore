@@ -4,3 +4,4 @@ npm-debug.log
 .monitor
 *.swp
 *.dat
+*.png
