@@ -1,6 +1,6 @@
 set terminal png
 set output "cluster.png"
-set title "Clustered Socket.IO / RedisStore xhr-polling (with patch)"
+set title "Clustered Socket.IO / RedisStore xhr-polling"
 set size 1,0.7
 
 set grid y
