@@ -1,6 +1,6 @@
 # Socket.IO RedisStore Test Case
 
-RedisStore is leaking pubsub channels when using xhr-polling. This is a simple test to demonstrate the issue.
+RedisStore is leaking pubsub channels when using xhr-polling. This is a simple test to demonstrate the [issue][1].
 
 The test comprises of a server and load test. The server runs a stripped down Socket.IO server. The load test connects 1 client every second until it reaches 100. 
 
@@ -53,3 +53,5 @@ To generate the graph for the clustered process run
 You can then open the graph with
 
     open cluster.png
+
+[1]: https://github.com/LearnBoost/socket.io/issues/1090
