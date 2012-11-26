@@ -1,0 +1,20 @@
+{
+  "name": "Socket.IO-RedisStore-pubsub-leak",
+  "description": "A test to demonstrate socket.io cluster issues",
+  "version": "0.0.1",
+  "main": "./server",
+  "author": "George Ornbo <george@shapeshed.com> (http://shapeshed.com)",
+  "engines": {
+    "node": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shapeshed/Socket.IO-RedisStore-pubsub-leak"
+  },
+  "dependencies": {
+    "express": "3.0.0",
+    "socket.io": "0.9.11",
+    "socket.io-client": "git://github.com/shapeshed/socket.io-client.git",
+    "redis": "0.7.3"
+  }
+}
